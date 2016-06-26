@@ -58,9 +58,9 @@ Zend OPcache*
 
 ## Supported tags and respective `Dockerfile` links
 
-* [`7.0.8-cli`, `cli`, `latest`](https://github.com/herloct/docker-php/blob/master/7.0/Dockerfile)
-* [`7.0.8-fpm`, `fpm`](https://github.com/herloct/docker-php/blob/master/7.0/fpm/Dockerfile)
-* [`7.0.8-composer`, `composer`](https://github.com/herloct/docker-php/blob/master/7.0/composer/Dockerfile)
+* [`7.0.8-cli`, `7.0-cli`, `cli`, `latest`](https://github.com/herloct/docker-php/blob/master/7.0/Dockerfile)
+* [`7.0.8-fpm`, `7.0-fpm`, `fpm`](https://github.com/herloct/docker-php/blob/master/7.0/fpm/Dockerfile)
+* [`7.0.8-composer`, `7.0-composer`, `composer`](https://github.com/herloct/docker-php/blob/master/7.0/composer/Dockerfile)
 * [`5.6.23-cli`, `5.6-cli`](https://github.com/herloct/docker-php/blob/master/5.6/Dockerfile)
 * [`5.6.23-fpm`, `5.6-fpm`](https://github.com/herloct/docker-php/blob/master/5.6/fpm/Dockerfile)
 * [`5.6.23-composer`, `5.6-composer`](https://github.com/herloct/docker-php/blob/master/5.6/composer/Dockerfile)
