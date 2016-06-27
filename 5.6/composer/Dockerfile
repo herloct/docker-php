@@ -45,5 +45,7 @@ ENV PATH /home/php/bin:$PATH
 VOLUME /project
 WORKDIR /project
 
-ENTRYPOINT ["composer"]
+COPY entrypoint.sh /
+
+ENTRYPOINT ["/entrypoint.sh"]
 CMD ["list"]

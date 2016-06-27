@@ -40,5 +40,7 @@ ENV HOME /home/php
 VOLUME /project
 WORKDIR /project
 
-ENTRYPOINT ["php"]
+COPY entrypoint.sh /
+
+ENTRYPOINT ["/entrypoint.sh"]
 CMD ["--help"]
